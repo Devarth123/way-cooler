@@ -1,0 +1,6 @@
+[workspace]
+members = ["way-cooler", "awesome"]
+exclude = ["wlroots-rs"]
+
+[profile.release]
+debug = true
